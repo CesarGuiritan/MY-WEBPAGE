@@ -88,7 +88,7 @@ elif tabs == 'Project':
                 This is a sample for fun web app only. 
                 """
             )
-            st.markdown("[Github Link](https://github.com/YourEnemy1/Basketball-Score-Counter)")
+            st.markdown("[Github Link](https://github.com/CesarGuiritan/MY-WEBPAGE/tree/main/python)")
     with st.container():
         image_column, text_column = st.columns((1,2)) # (image_column size, text_column size)
         with image_column:
@@ -131,7 +131,7 @@ elif tabs == 'Feedback':
             st.header("Get in touch with me!")
         st.write("##")
         contact_form = """
-        <form action="https://formsubmit.co/comekhazee2017@gmail.com" method="POST">
+        <form action="https://formsubmit.co/cesarguiritan134@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>

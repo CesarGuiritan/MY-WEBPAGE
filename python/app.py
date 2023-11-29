@@ -58,10 +58,10 @@ if tabs =='Home':
         with column_left:
             st.write("---")
             st.title("This is my webpage")
-            st.subheader("Hi :wave:, I am Richmond E. Hinggo")
+            st.subheader("Hi :wave:, I am Cesar U. Guiritan")
             st.write("I am a Computer Engineering students from SNSU")
             st.write("To know my projects visit my github link below.")
-            st.write("[Github Link Here](https://github.com/YourEnemy1)")
+            st.write("[Github Link Here](https://github.com/CesarGuiritan/MY-WEBPAGE/tree/main/python)")
         with column_right:
             pass
 

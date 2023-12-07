@@ -23,7 +23,7 @@ local_css("style/style.css")
 # --- Load Assets ---
 lottie_coding = load_lottieurl("https://lottie.host/ccd351fa-6625-4172-9082-8133922133d6/V9YuUtgXl2.json")
 lottie_email = load_lottieurl("https://lottie.host/cf262121-a926-4935-b875-de2f0c5e1443/egpAV4JoPj.json")
-img_project1 = Image.open("images/Basketball_Counter_App.png")
+img_project1 = Image.open("images/workout.jpg")
 img_lottie_animation = Image.open("images/webpageImage2.png")
 
 # --- Side Bar Section ---
@@ -76,16 +76,44 @@ elif tabs == 'Project':
             # insert image
             st.image(img_project1)
         with text_column:
-            st.subheader("Basketball Score Counter App")
+            st.subheader("Project Body")
             st.write(
                 """ 
-                This is a Basketball Score Counter made in Html, Css and Java Script. 
+                Physical Benefits:
+                Weight Management: Exercise helps in maintaining a healthy weight or achieving weight loss by burning calories and improving metabolism.
+
+                Cardiovascular Health: Regular exercise strengthens the heart, lowers blood pressure, and improves overall cardiovascular health.
+
+                Muscle Strength and Endurance: Physical activity helps build and maintain muscle mass, enhancing strength and endurance.
+
+                Bone Health: Weight-bearing exercises contribute to bone density, reducing the risk of osteoporosis and fractures.
+
+                Improved Flexibility: Stretching and flexibility exercises enhance joint range of motion and reduce the risk of injuries.
+
+                Enhanced Immune System: Regular exercise can boost the immune system, making the body more resilient to illnesses. 
                 """
                 """ 
-                This web app is not fully finish. 
+                Mental and Emotional Benefits:
+                Stress Reduction: Exercise triggers the release of endorphins, which are natural mood lifters, reducing stress and anxiety.
+
+                Improved Sleep: Regular physical activity can contribute to better sleep quality and duration.
+
+                Increased Energy Levels: Exercise increases energy levels and reduces feelings of fatigue.
+
+                Enhanced Cognitive Function: Physical activity is linked to improved concentration, memory, and overall cognitive function.
+
+                Mood Regulation: Exercise can help alleviate symptoms of depression and anxiety, promoting a positive mood.
                 """
                 """
-                This is a sample for fun web app only. 
+                Long-Term Health Benefits:
+                Disease Prevention: Regular exercise is associated with a lower risk of chronic diseases such as heart disease, diabetes, and certain types of cancer.
+
+                Improved Longevity: Leading an active lifestyle is linked to a longer and healthier life.
+
+                Social Benefits:
+                Community and Social Interaction: Group exercises or team sports provide opportunities for social interaction, fostering a sense of community.
+
+                Self-Esteem and Confidence: Achieving fitness goals can boost self-esteem and confidence.
                 """
             )
             st.markdown("[Github Link](https://github.com/CesarGuiritan/MY-WEBPAGE/tree/main/python)")
@@ -112,10 +140,32 @@ elif tabs == 'About':
             st.header("About Me")
             st.write("##")
             st.write("""
-                I am a computer engineering student in Surigao del Norte State University.
-                - I am currently studying Python, Java, Html and Css.
-                - All of my projects is not final and currently ongoing.
-                - I'm going to finish this soon.
+                Journey through Code: Get to know Cesar Guritan
+
+                Introduction:
+                Cesar, a passionate and ambitious computer engineering student, embarked on a remarkable journey through the realm of technology with a determination to master programming languages such as Python, Java, and beyond. Born on February 12,2004, Cesar exhibited an early interest in computers and technology that would shape the trajectory of their life.
+
+                Early Years:
+                Growing up in Antao Surigao Del Sur, Cesardiscovered a fascination for the intricate world of computers at a young age. From taking apart gadgets to exploring basic programming concepts, it was evident that a future in computer engineering awaited. The supportive environment provided by My family encouraged Cesar to pursue their dreams in the field of technology.
+
+                Academic Pursuits:
+                As Cesar transitioned into higher education, they decided to pursue a degree in computer engineering at [Your University]. The academic journey proved to be both challenging and rewarding, as Cesardelved into courses ranging from digital systems design to algorithms and data structures. The foundational knowledge gained during this period laid the groundwork for a deeper understanding of computer science.
+
+                Passion for Programming:
+                Fueling Cesar's enthusiasm for technology was an insatiable appetite for programming languages. Python, with its simplicity and versatility, became an early love. Cesarrecognized the importance of Java in the software development landscape, and with determination, they set out to master its intricacies. Beyond these languages, Cesar embraced a curiosity-driven approach, exploring new languages and frameworks to broaden their skill set.
+
+                Extracurricular Activities:
+                Outside the classroom, Cesar engaged in various extracurricular activities to complement their academic endeavors. Participating in coding competitions, hackathons, and collaborative projects, Cesar honed their problem-solving skills and gained practical experience. These experiences not only enriched Cesar's knowledge but also forged lasting connections within the tech community.
+
+                Internships and Industry Exposure:
+                To further bridge the gap between academia and industry, Cesar sought internships and practical experiences. Working at [Your Previous Internship Company], Cesar gained valuable insights into real-world software development, applying theoretical concepts to solve practical challenges. These experiences solidified Cesar's commitment to pursuing a career at the intersection of computer engineering and programming.
+
+                Future Aspirations:
+                As Cesar continues their academic journey and explores the ever-evolving landscape of technology, the future holds exciting possibilities. Cesar envisions contributing to cutting-edge projects, perhaps in artificial intelligence, cybersecurity, or software development. The unwavering commitment to continuous learning ensures that Cesar remains at the forefront of technological advancements.
+
+                Conclusion:
+                The biography of Cesar reflects a compelling narrative of passion, perseverance, and a relentless pursuit of knowledge in the field of computer engineering. As Cesarcontinues to evolve as a tech enthusiast, the story unfolds, promising an inspiring journey through code with many more chapters yet to be written.
+                .
             """)
             st.write("For the meantime you can watch this youtube video to learn more about how to make a webpage!")
             st.write("[Youtube](https://youtube.com/c/CodingIsFun)")

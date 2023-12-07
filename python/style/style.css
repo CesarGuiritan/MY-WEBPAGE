@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6,p,li,ul{
-    color: #454ea0;
+    color: #f6f7f6;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -21,14 +21,14 @@ h1,h2,h3,h4,h5,h6,p,li,ul{
     height: 100%;
     width: 100%;
     overflow: overlay;
-    background-color: #1e66ea;
+    background-color: #010102;
   }
   
   @media (min-width: 50vh){
   .st-emotion-cache-z5fcl4, .st-emotion-cache-qcqlej, .st-emotion-cache-10pw50{
       padding-left: 5rem;
       padding-right: 5rem;
-      background-color: #7fffd4;
+      background-color: #000000;
    }
   }
   /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6,p,li,ul{
   input[typer=message], input[type=email], input[type=text], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
+    border: 1px solid #ca1d1d; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /*Add a top margin */

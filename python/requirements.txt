@@ -1,4 +1,5 @@
 streamlit
 pillow
 request
-
+streamlit_lottie
+st_on_hover_tabs

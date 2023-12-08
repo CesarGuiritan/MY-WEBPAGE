@@ -1,5 +1,5 @@
 streamlit
 pillow
-request
+requests
 streamlit_lottie
 hover_tabs

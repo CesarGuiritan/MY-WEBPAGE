@@ -2,3 +2,4 @@ streamlit
 pillow
 requests
 streamlit_lottie
+hover_tabs

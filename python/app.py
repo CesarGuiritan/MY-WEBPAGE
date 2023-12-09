@@ -24,6 +24,10 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://lottie.host/ccd351fa-6625-4172-9082-8133922133d6/V9YuUtgXl2.json")
 lottie_email = load_lottieurl("https://lottie.host/cf262121-a926-4935-b875-de2f0c5e1443/egpAV4JoPj.json")
 img_project1 = Image.open("images/workout.jpg")
+img_project2= Image.open("images/every.jpg")
+img_project3 = Image.open("images/gym.jpg")
+img_project4 = Image.open("images/bench.jpg")
+
 img_lottie_animation = Image.open("images/webpageImage2.png")
 
 # --- Side Bar Section ---
@@ -75,6 +79,9 @@ elif tabs == 'Project':
         with image_column:
             # insert image
             st.image(img_project1)
+            st.image(img_project2)
+            st.image(img_project3)
+            st.image(img_project4)
         with text_column:
             st.subheader("Project Body")
             st.write(
@@ -120,7 +127,7 @@ elif tabs == 'Project':
     with st.container():
         image_column, text_column = st.columns((1,2)) # (image_column size, text_column size)
         with image_column:
-            st.image(img_lottie_animation) # insert image
+            st.image(img_lottie_animation)# insert image
         with text_column:
             st.subheader("How to add a contact form in your Streamit App")
             st.write(
